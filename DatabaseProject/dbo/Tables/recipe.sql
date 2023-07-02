@@ -5,10 +5,9 @@ CREATE TABLE [dbo].[recipe] (
     [ingredients] VARCHAR (MAX) NOT NULL,
     [directions]  VARCHAR (MAX) NOT NULL,
     [user_id]     INT           NOT NULL,
+    [is_public]   BIT           CONSTRAINT [df_recipe_is_public]  DEFAULT 0 NOT NULL,
     CONSTRAINT [pk_recipe_recipe_id] PRIMARY KEY CLUSTERED ([recipe_id] ASC),
     CONSTRAINT [fk_recipe_user_id] FOREIGN KEY ([user_id]) REFERENCES [dbo].[user] ([user_id])
 );
 
-
 GO
-
