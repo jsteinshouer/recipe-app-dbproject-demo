@@ -1,0 +1,8 @@
+coldbox
+.env
+!.env.example
+lib
+modules
+testbox
+DatabaseProject/bin
+DatabaseProject/obj
