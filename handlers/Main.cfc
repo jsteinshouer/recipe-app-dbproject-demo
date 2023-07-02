@@ -14,9 +14,6 @@
 
 	function onAppInit(event,rc,prc){
 
-		/* Migrate db changes on app start */
-		param name="url.seedTestData" default=false;
-		getInstance( "MigrationService@cfmigrations" ).up(  seed = url.seedTestData );
 
 	}
 

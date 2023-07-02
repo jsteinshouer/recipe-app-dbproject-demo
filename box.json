@@ -10,8 +10,7 @@
         "nbvcxz-1.5.1":"jar:https://github.com/GoSimpleLLC/nbvcxz/releases/download/1.5.1/nbvcxz-1.5.1.jar",
         "testbox":"^2.7.0+167",
         "core-3.5.1":"jar:https://repo1.maven.org/maven2/com/google/zxing/core/3.5.1/core-3.5.1.jar",
-        "javase-3.5.1":"jar:https://repo1.maven.org/maven2/com/google/zxing/javase/3.5.1/javase-3.5.1.jar",
-        "cfmigrations":"^4.1.0"
+        "javase-3.5.1":"jar:https://repo1.maven.org/maven2/com/google/zxing/javase/3.5.1/javase-3.5.1.jar"
     },
     "devDependencies":{},
     "installPaths":{
@@ -21,8 +20,7 @@
         "nbvcxz-1.5.1":"lib/nbvcxz/",
         "testbox":"testbox/",
         "core-3.5.1":"lib/zxing/core-3.5.1/",
-        "javase-3.5.1":"lib/zxing/javase-3.5.1/",
-        "cfmigrations":"modules/cfmigrations/"
+        "javase-3.5.1":"lib/zxing/javase-3.5.1/"
     },
     "scripts":{
         "onServerInitialInstall":"cfpm install debugger,sqlserver"
